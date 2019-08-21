@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecflowSeleniumFramework", "SpecflowSeleniumFramework\SpecflowSeleniumFramework.csproj", "{428622F5-D142-43F6-BDCA-7C52D524ECEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B2B7651D-55C6-4A0A-B304-17FD6D51941D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleConsumer", "ExampleConsumer\ExampleConsumer.csproj", "{22D83B35-C7A1-466A-90C5-D5E8E51D2D59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{428622F5-D142-43F6-BDCA-7C52D524ECEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428622F5-D142-43F6-BDCA-7C52D524ECEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428622F5-D142-43F6-BDCA-7C52D524ECEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428622F5-D142-43F6-BDCA-7C52D524ECEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D83B35-C7A1-466A-90C5-D5E8E51D2D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D83B35-C7A1-466A-90C5-D5E8E51D2D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D83B35-C7A1-466A-90C5-D5E8E51D2D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D83B35-C7A1-466A-90C5-D5E8E51D2D59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
